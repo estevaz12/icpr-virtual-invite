@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@media (min-width: 768px) and (max-width: 991px) {
+  body {
+    padding-top: 8.5%;
+  }
+}
+
+@media (max-width: 991px) {
+
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+button, figcaption, form, p {
+  font-family: 'Poppins', sans-serif;
+}
+
+figcaption, p {
+  font-size: 1.25em;
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
+
+p {
+  margin-bottom: 0;
+  line-height: 1.75em;
+}
+
+video {
+  max-width: 100%;
+  height: auto;
+  filter:opacity(80%);
+}
+
+.breadcrumb {
+  width: 100%;
+  margin: 0;
+}
+
+.btn-lg {
+  padding: 1.5rem 3.5rem;
+  border-radius: 3.5rem;
+  border: 3px solid;
+}
+
+.btn-lg:hover {
+  background-color: #f8f9fa;
+  color: #000;
+}
+
+.carousel-item img {
+  height: 500px;
+  object-fit: cover;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.ministry-img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 1.25rem;
+}
+
+.navbar {
+  padding: 0.5% 4.44%;
+}
+
+.navbar-toggler {
+  border: 0;
+}
+
+.social-media-logo {
+  min-width: 35px;
+  max-width: 10%;
+  height: auto;
+}
+
+#bible-study {
+  background-image: url('../img/bible-study.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+#bible-study, #tune-in {
+  padding: 1.5rem 2.875rem;
+}
+
+#bible-study p {
+  margin-bottom: 3.5rem;
+}
+
+#breadcrumb-col, #contact-img-col {
+  padding: 0;
+}
+
+#contact-info-footer {
+  background-color: #002245;
+  color: #fff;
+  text-align: center;
+  padding: 3rem 0;
+}
+
+#copyright {
+  text-align: center;
+  background-color: #010d1a;
+  color: #fff;
+  padding: 1.5rem 0;
+}
+
+#copyright p {
+  font-size: 1em;
+}
+
+#fb-live {
+  width: 100px;
+  height: auto;
+  margin-right: 1rem;
+}
+
+#find-us {
+  background-color: #002245;
+  color: #fff;
+  padding: 3rem 0;
+}
+
+#find-us img {
+  margin-right: 9.65%;
+}
+
+#footer-logo {
+  width: 200px;
+  height: auto;
+  margin-bottom: 2rem;
+}
+
+#friendships {
+  text-align: center;
+}
+
+#friendships h1, #ministries h1 {
+  margin: 3.5rem 0 2rem;
+}
+
+#intro {
+  text-align: center;
+  margin: 3.125rem 0;
+}
+
+#ministries {
+  background-color: #0456AF;
+  color: #fff;
+  text-align: center;
+}
+
+#ministries figure {
+  margin-bottom: 3.5rem;
+}
+
+#submit-btn {
+  color: #002245;
+  border-color: #002245;
+  margin: 1rem 0 3rem;
+}
+
+#submit-btn:hover {
+  color: #fff;
+  background-color: #002245;
+}
+
+#tune-bible {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+
+#tune-in {
+  background-color: #4DA3FE;
+  color: #fff;
+}
+
+#tune-in p {
+  margin-bottom: 3.5rem;
+}
+
+/* #welcome {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 4em;
+} */
+
+#youtube {
+  height: 34.94px;
+  width: auto;
+}
+
+img#yt-logo {
+  min-width: 49.59px;
+  max-width: 14.16%;
+  height: auto;
+  margin: 0;
+}
